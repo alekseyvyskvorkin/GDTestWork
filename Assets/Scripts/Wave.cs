@@ -1,12 +1,8 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using TestWork.Units;
 
-[CreateAssetMenu(fileName = "Wave", menuName = "Data/Waves")]
 [Serializable]
-public class Wave : ScriptableObject
+public class Wave
 {
-
-    public GameObject[] Characters;
+    public UnitType[] Enemies;
 }
